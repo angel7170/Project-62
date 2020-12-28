@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title> Photo Gallery</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <p id="firstp"> Sliding Gallery</p>
+        <div class="slideshow-container">
+        <div class="myslides">
+            <div class="numbertext"> 1 / 8</div>
+            <img id="img1" src="Captain%20America.jpg">
+            <div class="text"> Captain America</div>
+        </div>
+        <div class="myslides">
+            <div class="numbertext"> 2 / 8</div>
+            <img id="img1" src="Black%20Panther.jpg">
+            <div class="text"> Black Panther</div>
+        </div>
+        <div class="myslides">
+            <div class="numbertext">3 / 8 </div>
+            <img id="img1" src="Hulk'.jpg">
+            <div class="text"> Hulk</div>
+        </div>
+         <div class="myslides">
+            <div class="numbertext">4 / 8 </div>
+            <img id="img1" src="iron%20man.jpeg">
+            <div class="text"> Iron Man</div>
+        </div>
+         <div class="myslides">
+            <div class="numbertext">5 / 8 </div>
+            <img id="img1" src="Thanos.jpg">
+            <div class="text"> Thanos</div>
+        </div>
+         <div class="myslides">
+            <div class="numbertext">6 / 8 </div>
+            <img id="img1" src="thor.jfif">
+            <div class="text"> Thor</div>
+        </div>
+         <div class="myslides">
+            <div class="numbertext">7 / 8 </div>
+            <img id="img1" src="Gamora.jpg">
+            <div class="text"> Gamora</div>
+        </div>
+          <div class="myslides">
+            <div class="numbertext">8 / 8 </div>
+            <img id="img1" src="captain%20marvel'.jpg">
+            <div class="text"> Captain Marvel</div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)"> &#10094;</a>
+        <a class="next" onclick="plusSlides(1)"> &#10095;</a>
+        </div>
+        <br>
+        <div style="text-align: center">
+            <span class="dot" onclick="currentslide(1)"></span>
+            <span class="dot" onclick="currentslide(2)"></span>
+            <span class="dot" onclick="currentslide(3)"></span>
+            <span class="dot" onclick="currentslide(4)"></span>
+            <span class="dot" onclick="currentslide(5)"></span>
+            <span class="dot" onclick="currentslide(6)"></span>
+            <span class="dot" onclick="currentslide(7)"></span>
+            <span class="dot" onclick="currentslide(8)"></span>
+        </div>
+        <p id="secondp"> Grid Gallery</p>
+        <span class="row">
+            <span class="column">
+                <img src="Captain%20America.jpg">
+                <img src="Black%20Panther.jpg">
+                <img src="Hulk'.jpg">
+                <img src="iron%20man.jpeg">
+            </span>
+            <span class="column">
+                <img src="Thanos.jpg">
+                <img src="thor.jfif">
+                <img src="Gamora.jpg">
+                <img src="captain%20marvel'.jpg">
+            </span>
+        </span>
+    </body>
+</html>
